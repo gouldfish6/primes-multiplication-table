@@ -35,7 +35,6 @@ def get_primes(number_of_primes):
 
 def print_multiplication_table(number_list):
     """Prints a multiplication table with the numbers in number_list."""
-
     for number in number_list:
         sys.stdout.write('\t' + str(number))
     sys.stdout.write('\n')
